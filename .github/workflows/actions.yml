@@ -1,0 +1,7 @@
+name: my-first-action
+on: [push]
+jobs: 
+  write-something-on-console:
+    runs-on: ubuntu-latest
+    steps: 
+      -run: echo "Hello DevSecOps!!"
