@@ -1,7 +1,0 @@
-name: github-action-test
-on: [push]
-jobs:
-  write-something:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Hello All!"
