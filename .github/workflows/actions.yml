@@ -1,7 +1,7 @@
-name: my-first-action
+name: first-github-action
 on: [push]
-jobs: 
-  write-something-on-console:
+jobs:
+  write-to-console:
     runs-on: ubuntu-latest
-    steps: 
-      -run: echo "Hello DevSecOps!!"
+    steps:
+      - run: echo 'Hello world!'
