@@ -4,4 +4,4 @@ jobs:
   write-something:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Hello All!'
+      - run: echo "Hello All!"
