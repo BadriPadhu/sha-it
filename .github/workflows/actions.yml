@@ -1,0 +1,7 @@
+name: my-first-github-actions
+on: [push]
+jobs:
+  write-something-on-console
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Hi DevSecops!!" 
